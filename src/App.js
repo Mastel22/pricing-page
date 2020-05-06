@@ -1,6 +1,7 @@
 import React from 'react';
 import Pricing from './components/Pricing';
-import './components/pricing.css'
+import './reset.css';
+import './components/pricing.css';
 
 function App() {
   
