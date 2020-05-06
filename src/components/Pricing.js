@@ -11,14 +11,14 @@ useEffect(() => {
   
   return (
     <div className="container">
-      <h1>Pay</h1>
+      <h1 className='title'>Pricing Plan</h1>
       
       <div className="card-container">
         
         {plans && plans.map((plan, i) =>( 
           <div className="card" key={i}>
-          <h1>{plan.title}</h1>
-          <h6>{plan.price}</h6>
+          <h1 className='title'>{plan.title}</h1>
+          <p className='price'>{plan.price}</p>
           {plan.feature.map(feature =>(
             <p>{feature}</p>
           ))}

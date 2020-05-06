@@ -1,6 +1,7 @@
 .container {
   margin: 50px auto;
   max-width: 996px;
+
 }
 
 .card-container {
@@ -9,28 +10,42 @@
   justify-content: space-around;
   align-items: center;
 }
+.card:nth-child(2) { background: #093757; color: white}
 .card {
   width: 15rem;
-  background-color: whitesmoke;
+  background-color: rgb(231, 225, 225);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 2rem 0;
+  border-radius: 10px;
   box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.1);
   min-height: 350px;
 }
 h1 {
   text-align: center;
 }
-
+.card:nth-child(2) .request { background: white; color: black}
 .request {
   padding: 1rem 2.5rem;
-  background-color: yellow;
+  background-color: #f0882e;
   border-radius: 1rem;
   margin: 1rem 0;
   cursor: pointer;
   text-transform: uppercase;
   color: black;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
+}
+.card:nth-child(2) .title { color: #f0882e}
+.title{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card:nth-child(2) .price { color: white}
+.price{
+  font-size: 18px;
+  font-weight: bold;
+  color: #f0882e
 }
